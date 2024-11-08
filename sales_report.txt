@@ -1,0 +1,15 @@
+Sales Report:
+----------------------------------------
+Elvin Mammadov bought 3 Meyveli Tort, total: 180 AZN
+Murad Hacıyev bought 2 Vanilli Tort, total: 130 AZN
+Eldar Əliyev bought 2 Karamelli Tort, total: 140 AZN
+Rauf Allahverdiyev bought 2 Cheesecake, total: 110 AZN
+Eldar Əliyev bought 1 Meyveli Tort, total: 60 AZN
+Leyla Quliyeva bought 1 Balqabaqli Tort, total: 68 AZN
+Aynur Əliyeva bought 2 Cheesecake, total: 110 AZN
+Təyyar Rəhimov bought 1 Vanilli Tort, total: 65 AZN
+Aynur Əliyeva bought 1 Portağalli Tort, total: 72 AZN
+Samir İsmayılov bought 1 Banana Tort, total: 78 AZN
+Fərid Əliyev bought 3 Banana Tort, total: 234 AZN
+----------------------------------------
+Kassaya gelen total gelir: 1247 AZN

@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Elvin Mammadov",
+        "age": 18,
+        "phone": "0551234567",
+        "address": "Baki, Nizami küçəsi 12"
+    },
+    {
+        "id": 2,
+        "name": "Aysel Rzayeva",
+        "age": 47,
+        "phone": "0507654321",
+        "address": "Baki, Xətai prospekti 45"
+    },
+    {
+        "id": 3,
+        "name": "Ramil Huseynov",
+        "age": 56,
+        "phone": "0552345678",
+        "address": "Baki, Nizami küçəsi 16"
+    },
+    {
+        "id": 4,
+        "name": "Leyla Quliyeva",
+        "age": 34,
+        "phone": "0501234789",
+        "address": "Sumqayit, Həzi Aslanov küçəsi 24"
+    },
+    {
+        "id": 5,
+        "name": "Rauf Allahverdiyev",
+        "age": 21,
+        "phone": "0709876543",
+        "address": "Baki, Binəqədi rayonu 15"
+    },
+    {
+        "id": 6,
+        "name": "Nigar Mammadova",
+        "age": 26,
+        "phone": "0509876543",
+        "address": "Baki, Sabunçu rayonu 8"
+    },
+    {
+        "id": 7,
+        "name": "Murad Hacıyev",
+        "age": 24,
+        "phone": "0553456789",
+        "address": "Bakı, Suraxanı rayonu 21"
+    },
+    {
+        "id": 8,
+        "name": "Sahil Məmmədov",
+        "age": 32,
+        "phone": "0701234567",
+        "address": "Bakı, Binəqədi prospekti 55"
+    },
+    {
+        "id": 9,
+        "name": "Aynur Əliyeva",
+        "age": 23,
+        "phone": "0503456789",
+        "address": "Bakı, Nərimanov rayonu 33"
+    },
+    {
+        "id": 10,
+        "name": "Samir İsmayılov",
+        "age": 76,
+        "phone": "0702345678",
+        "address": "Bakı, Xətai rayonu 20"
+    },
+    {
+        "id": 11,
+        "name": "Təyyar Rəhimov",
+        "age": 44,
+        "phone": "0508765432",
+        "address": "Bakı, Nizami rayonu 28"
+    },
+    {
+        "id": 12,
+        "name": "Vüsalə Əhmədova",
+        "age": 33,
+        "phone": "0556543210",
+        "address": "Gəncə, Cavadxan küçəsi 10"
+    },
+    {
+        "id": 13,
+        "name": "Eldar Əliyev",
+        "age": 55,
+        "phone": "0501234598",
+        "address": "Mingəçevir, İmamverdiyev küçəsi 6"
+    },
+    {
+        "id": 14,
+        "name": "Nərmin Qasımova",
+        "age": 45,
+        "phone": "0705432189",
+        "address": "Bakı, Səbail rayonu 40"
+    },
+    {
+        "id": 15,
+        "name": "Fərid Əliyev",
+        "age": 28,
+        "phone": "0556547893",
+        "address": "Bakı, Şərifzadə küçəsi 14"
+    }
+]
