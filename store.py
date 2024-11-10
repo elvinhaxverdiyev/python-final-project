@@ -1,5 +1,6 @@
 import json
 from filter import filter_by_cake_type, filter_by_price_range, filtered_by_start_with_letter
+from creat_qr import create_stock_qr_code
 
 class Store:
     def __init__(self, name, since):
@@ -31,7 +32,11 @@ class Store:
         for cake, price in self.stock.items():
             print(f"{cake}: {price} AZN")
         print("-" * 30)
-
+        
+    def generate_stock_qr(self):
+        """Stock melumatlarini QR kod olaraq yaradir"""
+        create_stock_qr_code(self.stock) 
+        
     def sell_item(self, customer, item_name, count=1):
         """Satilan mehsulu kassa ve musteri balansini yenileyir"""
         try:
