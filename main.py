@@ -72,7 +72,7 @@ if my_store:
         my_store.show_stock()
     except Exception as e:
         print(f"Xeta: Magazanin stoklari gosterilerken xeta bas verdi: {e}")
-
+        
 # Simulyasiya baslatmaq
 if my_store:
     simulation = Simulation(my_store, customers)
@@ -107,4 +107,11 @@ try:
     my_store.show_filtered_cakes(start_letter="S")
 except Exception as e:
     print(f"Xeta: Tortlar bas herfe gore filtrlenerken xeta bas verdi: {e}")
-
+    
+# QR kod seklini yaratmaq ucun
+if my_store:
+    try:
+        my_store.generate_stock_qr()
+    except Exception as e:
+        print(f"Xeta: QR kod yaradilarken xeta bas verdi: {e}")
+        
