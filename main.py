@@ -28,6 +28,12 @@ class Simulation:
                 count = random.randint(1, 3)  # 1 ile 3 arasinda mehsul alir
                 try:
                     customer.buy_product(self.store, product_name, count)
+                    
+                    # Mehsula rey elave et
+                    if random.random() > 0.5:  # 50% ehtimal ile rey elave edilir
+                        rating = random.randint(1, 5)
+                        review_text = f"Bu məhsul cox yaxsidir! (Rating: {rating}/5)"
+                        self.store.add_review(product_name, rating, review_text)
                 except Exception as e:
                     print(f"Xeta bas verdi: {e}")
 
@@ -113,5 +119,4 @@ if my_store:
     try:
         my_store.generate_stock_qr()
     except Exception as e:
-        print(f"Xeta: QR kod yaradilarken xeta bas verdi: {e}")
-        
+        print(f"Xeta: QR kod yaradilirken xeta bas verdi: {e}")
