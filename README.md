@@ -1,71 +1,70 @@
-# 🎂 Sweet Treats Mağaza Simulyasiyası
+# 🎂 Sweet Treats Store Simulation
 
-Bu layihə, **Sweet Treats** adlı bir mağaza üçün sadə bir simulyasiya sistemidir. 🏪 Simulyasiya müştərilərin alışlarını təsadüfi şəkildə həyata keçirir və müxtəlif filtr, balans, tarixçə, satış kimi funksionallıqları əhatə edir. Layihə **Python** dili ilə yazılmışdır. 🐍
+This project is a simple simulation system for a store called **Sweet Treats**. 🏪 The simulation randomly processes customer purchases and includes functionalities such as filtering, balance tracking, purchase history, and sales recording. The project is written in **Python**. 🐍
 
-## 🚀 Layihənin Funksionallığı
-- 🛍 **Müştərilərin Alış Simulyasiyası**: Müştərilər 30% ehtimal ilə məhsul alır.
-- ⭐ **Məhsul Rəyləri**: Alınan məhsullara 50% ehtimal ilə rəy əlavə edilir.
-- 📦 **Mağazanın Anbar Göstəricisi**: Mövcud məhsullar göstərilir.
-- 💾 **Satışları Fayla Yazmaq**: Günlük satışlar fayla yazılır.
-- 🔍 **Məhsulları Filtrləmək**:
-  - 🍰 Tort növünə görə
-  - 💰 Qiymət aralığına görə
-  - 🔠 Başlanğıc hərfinə görə
-- 💳 **Müştəri Balansı və Alış Tarixçəsi**: Hər müştərinin balansı və alış tarixi göstərilir.
-- 📲 **QR Kod Yaratmaq**: Mağazanın stokunda olan məhsulların QR kodu yaradılır.
+## 🚀 Features
+- 🛍 **Customer Purchase Simulation**: Customers have a 30% chance of purchasing a product.
+- ⭐ **Product Reviews**: Purchased products have a 50% chance of receiving a review.
+- 📦 **Store Inventory Display**: Shows available products.
+- 💾 **Sales Recording**: Daily sales are saved to a file.
+- 🔍 **Product Filtering**:
+  - 🍰 By cake type
+  - 💰 By price range
+  - 🔠 By starting letter
+- 💳 **Customer Balance & Purchase History**: Displays each customer's balance and purchase records.
+- 📲 **QR Code Generation**: Generates QR codes for the store's inventory.
 
 ---
-## ⚙️ Quraşdırma və İşə Salma
-### 1️⃣ Layihəni klonlayın:
-```bash
-git clone https://github.com/sizin-repo/sweet-treats-simulation.git
+## ⚙️ Installation & Running the Simulation
+### 1️⃣ Clone the Repository:
+```
+git clone https://github.com/your-repo/sweet-treats-simulation.git
 cd sweet-treats-simulation
 ```
 
-### 2️⃣ Virtual Mühiti Aktivləşdirin:
-```bash
+### 2️⃣ Activate Virtual Environment:
+```
 pipenv shell
 ```
 
-### 3️⃣ Lazımi kitabxanaları quraşdırın:
-```bash
+### 3️⃣ Install Dependencies:
+```
 pipenv install
 ```
 
-### 4️⃣ Simulyasiyanı İşə Salın:
-```bash
+### 4️⃣ Run the Simulation:
+```
 python simulation.py
 ```
 
 ---
-## 📁 Fayl Strukturu
-- 📜 **simulation.py** - Simulyasiya prosesi
-- 🧑‍💻 **customer.py** - Müştəri ilə bağlı funksiyalar
-- 🏪 **store.py** - Mağaza ilə bağlı funksiyalar
-- 🛠 **filter.py** - Filtr funksiyaları
-- ⚙️ **constants.py** - Sabitlər
-- 📄 **customers.json** - Müştəri məlumatlarını saxlayan JSON faylı
-- 📖 **README.md** - Layihənin izahı
+## 📁 Project Structure
+- 📜 **simulation.py** - Runs the simulation
+- 🧑‍💻 **customer.py** - Customer-related functions
+- 🏪 **store.py** - Store-related functions
+- 🛠 **filter.py** - Filtering functions
+- ⚙️ **constants.py** - Constants
+- 📄 **customers.json** - Stores customer data in JSON format
+- 📖 **README.md** - Project documentation
 
 ---
-## 📝 İstifadə Qaydaları
-Simulyasiya başladıqdan sonra mağazanın anbarı göstəriləcək və müştərilər təsadüfi şəkildə məhsul alacaq. Hər dəqiqədə bir müştərinin məhsul alma ehtimalı var. Alışlar, müştəri balansı və digər funksiyalar avtomatik işləyəcəkdir.
+## 📝 How It Works
+Once the simulation starts, the store's inventory is displayed, and customers will randomly make purchases. Each minute, a customer has a chance to buy a product. Purchases, customer balances, and other functions operate automatically.
 
 ---
-## 🛠 Xətalar və Həllər
-- ❌ **`customers.json` tapılmırsa**, müştəri siyahısı boş təyin olunacaq.
-- ❌ **Satışlar fayla yazılmırsa**, mağaza faylını yoxlayın.
-- ❌ **Filtrləmə xətası baş verərsə**, filtr modullarını yoxlayın.
-- ❌ **QR kod generasiya olunmazsa**, `qrcode` kitabxanasının quraşdırıldığından əmin olun:
-```bash
+## 🛠 Errors & Solutions
+- ❌ **`customers.json` not found**: The customer list will be set to empty.
+- ❌ **Sales not being recorded**: Check the store file.
+- ❌ **Filtering errors**: Verify the filter modules.
+- ❌ **QR code generation fails**: Ensure the `qrcode` library is installed:
+```
 pipenv install qrcode[pil]
 ```
 
 ---
-## 👤 Müəllif
-Bu layihə **Sweet Treats Simulyasiya** üçün hazırlanmışdır. Əgər hər hansı sualınız varsa, bizimlə əlaqə saxlayın! 📩
+## 👤 Author
+This project was developed for **Sweet Treats Simulation**. If you have any questions, feel free to contact us! 📩
 
 ---
-## 📜 Lisenziya
-Bu layihə açıq mənbə lisenziyası altında paylanır. İstifadə edərkən müəllif hüquqlarına hörmət edin. 📝
-
+## 📜 License
+This project is distributed under an open-source license. Please respect copyright laws when using it. 📝
